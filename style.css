@@ -1,0 +1,51 @@
+@font-face {font-family:"Miso Bold";src:url("miso-bold.eot?") format("eot"),url("miso-bold.woff") format("woff"),url("miso-bold.ttf") format("truetype"),url("miso-bold.svg#Miso-Bold") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"Miso";src:url("miso.eot?") format("eot"),url("miso.woff") format("woff"),url("miso.ttf") format("truetype"),url("miso.svg#Miso") format("svg");font-weight:normal;font-style:normal;}
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fdde7e;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 73.6vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 4px 6px 4px rgba(206,181,103,0.5);
+}
+div:hover {
+    height: 83.6vh;
+    transition-duration: 0.5s;
+}
+
+p:first-child {
+    font-family: "Miso Bold", sans-serif;
+    color: #02995b;
+    font-size: 70px;
+}
+
+img+p {
+    font-size: 60px;
+    font-family: "Miso", sans-serif;
+    color: #333333;
+}
+
+p:last-child {
+    text-align: center;
+    font-family: "Lato";
+    font-size: 25px;
+    width: 50%;
+    color: #5c5c5c;
+}
